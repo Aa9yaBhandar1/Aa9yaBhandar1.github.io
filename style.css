@@ -2,6 +2,9 @@
   font:Ariel , 'Sans seriff';
 }
 
+html{
+  scroll-behavior: smooth;
+}
 
 body{
   color : #fff;
@@ -194,8 +197,8 @@ width : 50%;
   transform: translateY(-10px);
 }
 
-<!-----------------------Portfolio ------------------------>
-#portfolio{
+<!-----------------------Projects ------------------------>
+#projects{
   padding: 50px 0;
 }
 <!-----------------------Contact ------------------------>
@@ -216,6 +219,7 @@ width : 50%;
   color:#ff004f;
   font-size: 25px;
   margin-right: 15px;
+  padding: 15px 0;
 }
 
 .social-icons{
@@ -225,7 +229,7 @@ width : 50%;
 .social-icons a{
   text-decoration: none;
   font-size:30px;
-  margin-right:15px;
+  margin-right:20px;
   color: #ababab;
   display: inline-block;
   transition: transform 0.5s;
@@ -236,7 +240,7 @@ width : 50%;
 }
 
 .btn{
-  margin-top:25px;
+  margin-top:30px;
   font-size: 20px;
   border-radius:5px;
   border-color:#ff004f;
@@ -274,4 +278,13 @@ form .btn2{
   font-size: 18px;
   margin-top: 20px;
   cursor:pointer;
+}
+
+.copyright{
+  width: 100%;
+  text-align: center;
+  padding:25px 0;
+  background: #262626;
+  font-weight: 300;
+  margin-top: 20px;
 }
