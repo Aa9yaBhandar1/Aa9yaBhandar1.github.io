@@ -10,3 +10,8 @@ function opentab(tabname){
     event.currentTarget.classList.add("active-links");
     document.getElementById(tabname).classList.add("active-tab");
 }
+
+document.getElementById('contact-form').addEventListener('submit', function(event) {
+    event.preventDefault(); 
+    this.reset();
+  });
