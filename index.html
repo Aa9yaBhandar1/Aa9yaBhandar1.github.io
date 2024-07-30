@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet"> 
+    <title>Document</title>
+</head>
+<body>
+    <div id="header">
+      <div class="container">
+            <nav>
+              <img src="logo1.png" class="logo">
+              <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Contact</a></li>
+              </ul>
+            </nav>
+            <div class="header-text">
+              <p>FrontEnd Developer</p>
+              <h1>Hi, I'm <span>Aagya</span><br>Bhandari From Nepal</h1>
+            </div>
+         </div>
+    </div>
+
+    <!-----------------------about ------------------------>
+    <div id="about">
+        <div class="container"> 
+            <div class="row">
+                <div class="about-col1">
+                    <img src="about.jpg"> 
+                </div>
+                <div class="about-col2">
+                    <h1 class="sub-title"> About Me</h1>
+                    <p> I am a computer engineering undergraduate and a newbie front-end developer. I am actively working on developing my skills in front-end development while exploring various other fields in computer engineering. My enthusiasm drives me to continually seek out new knowledge and skills.</p>
+                <div class="tab-titles">
+                    <p class="tab-links active-links" onclick="opentab('skills')"> Skills</p> 
+                    <p class="tab-links" onclick="opentab('experience')"> Experience </p>
+                    <p class="tab-links" onclick="opentab('education')"> Education </p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span> Web Developement </span><br> Development of front-end</li>
+                        <li><span> Design </span> <br>Design web</li>
+                        <li><span> Languages</span> <br>C,C++,JS</li>
+
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span> Not yet working </span><br></li>
+
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span> 2024-Present</span><br> Computer Engineering at WRC</li>
+                        <li><span> 2021-2023 </span> <br> Aroma College of Science and Management</li>
+                        <li><span> 2021</span> <br> New Life Secondary School</li>
+                    </ul>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+
+        <!-----------------------services ------------------------>
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title"> Services</h1>
+            <div class="services-list">
+                <div>
+                    <h2> Web Development </h2>
+                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, alias? Sed neque eveniet blanditiis distinctio, officia vitae quia corporis ducimus eligendi totam ipsum libero alias dicta veniam modi omnis? Sequi.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <h2>Web Design </h2>
+                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, alias? Sed neque eveniet blanditiis distinctio, officia vitae quia corporis ducimus eligendi totam ipsum libero alias dicta veniam modi omnis? Sequi.</p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+<script src="script.js"></script>
+</html>
+      
